@@ -10,6 +10,7 @@ public class HealthController : NetworkBehaviour {
     public int maxHealth = 100;
     [SyncVar(hook = "OnChangeHealth")]
     public int currentHealth;
+    public AudioSource AS;
 
      private NetworkStartPosition[] spawnPoints;
 
@@ -28,6 +29,7 @@ public class HealthController : NetworkBehaviour {
         currentHealth -= amount;
         if (currentHealth <= 0) {
             currentHealth = maxHealth;
+            AS.Play();
             RpcRespawn();
         }
         //healthBar.sizeDelta = new Vector2(currentHealth, healthBar.sizeDelta.y);

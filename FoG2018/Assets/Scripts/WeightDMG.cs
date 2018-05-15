@@ -6,6 +6,7 @@ public class WeightDMG : MonoBehaviour {
 
     Rigidbody rig;
     float dmg;
+    public AudioSource AS;
 	// Use this for initialization
 	void Start () {
 		rig=this.gameObject.GetComponent<Rigidbody>();
@@ -18,6 +19,8 @@ public class WeightDMG : MonoBehaviour {
         if(h) {
             dmg=(rig.mass/rig2.mass) * 10f;
             h.TakeDamage((int)dmg);
+            if(AS)
+                AS.Play();
         }
     }
 }

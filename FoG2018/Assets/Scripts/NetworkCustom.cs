@@ -7,6 +7,7 @@ public class NetworkCustom : NetworkManager
  
     public int chosenCharacter = 0;
     public GameObject[] characters;
+    public HangarManager HM;
 
     //subclass for sending network messages
     public class NetworkMessage : MessageBase {
@@ -29,13 +30,14 @@ public class NetworkCustom : NetworkManager
  
         }
         NetworkServer.AddPlayerForConnection(conn, player, playerControllerId);
+        HM.ResetGame();
         
     }
  
     public override void OnClientConnect(NetworkConnection conn) {
         NetworkMessage test = new NetworkMessage();
         test.chosenClass = chosenCharacter;
- 
+
         ClientScene.AddPlayer(conn, 0, test);
     }
  

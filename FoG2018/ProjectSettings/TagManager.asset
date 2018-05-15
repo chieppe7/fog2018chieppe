@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - SOUND
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - 
   - Camera
   - Bullet
-  - 
-  - 
-  - 
-  - 
+  - bound
+  - Hangar
+  - missile
+  - asteroids
   - 
   - 
   - 

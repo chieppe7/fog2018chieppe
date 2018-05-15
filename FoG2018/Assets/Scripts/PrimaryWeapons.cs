@@ -47,11 +47,12 @@ public class PrimaryWeapons : NetworkBehaviour {
             projectile,
             T[i].position,
             T[i++].rotation);
+        Physics.IgnoreCollision(bullet.GetComponent<Collider>(), gameObject.GetComponent<Collider>());
         if(i>=T.Length)
             i=0;
 
         // Add velocity to the bullet
-        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 100f;
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 200f;
         NetworkServer.Spawn(bullet);
         // Destroy the bullet after 2 seconds
         Destroy(bullet, 2.0f);

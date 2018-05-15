@@ -63,6 +63,7 @@ public class PhantomWeapons : NetworkBehaviour {
                 projectile,
                 T[i].position,
                 T[i++].rotation);
+            Physics.IgnoreCollision(bullet.GetComponent<Collider>(), gameObject.GetComponent<Collider>());
             if(i>=T.Length)
                 i=0;
 
