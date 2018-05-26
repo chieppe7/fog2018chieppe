@@ -52,7 +52,7 @@ public class PrimaryWeapons : NetworkBehaviour {
             i=0;
 
         // Add velocity to the bullet
-        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 200f;
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 300f;
         NetworkServer.Spawn(bullet);
         // Destroy the bullet after 2 seconds
         Destroy(bullet, 2.0f);

@@ -31,6 +31,8 @@ public class Ordnance : NetworkBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+        if(!isLocalPlayer)
+            return;
 		if(Input.GetButtonDown("Fire2")&&!charging){ 
                 StartCoroutine(FireInAHole());
         }

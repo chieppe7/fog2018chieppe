@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731725, g: 0.13414745, b: 0.12107873, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -180,6 +180,26 @@ Prefab:
     - target: {fileID: 1508688763374062, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
       propertyPath: m_Name
       value: Hangar (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
@@ -648,6 +668,26 @@ Prefab:
       propertyPath: m_Name
       value: Hangar (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
   m_IsPrefabParent: 0
@@ -788,6 +828,26 @@ Prefab:
       propertyPath: m_Name
       value: Hangar (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
   m_IsPrefabParent: 0
@@ -905,6 +965,10 @@ MonoBehaviour:
   - {fileID: 1233591851505096, guid: 639fa563a4360bc4ca26a663e58d87ad, type: 2}
   - {fileID: 1575427301364718, guid: 7e767b258ba80004489d8b044bcb0050, type: 2}
   - {fileID: 1744516326241078, guid: cab7cdf77bb90a846b6959fff4228a90, type: 2}
+  - {fileID: 1909224878559380, guid: aaaf89eee4b1f23488b2507987c67f08, type: 2}
+  - {fileID: 1479757679175060, guid: 6d45da056c3066b4996db4bf9ee62c82, type: 2}
+  - {fileID: 1082752772350182, guid: adc02d6deca50194aad408b0397fa623, type: 2}
+  - {fileID: 1453371578694094, guid: 97b60531db6ac46428b2d278b726f389, type: 2}
   pos: {fileID: 1104944811}
 --- !u!114 &851051361
 MonoBehaviour:
@@ -1019,7 +1083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &868214452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,7 +1099,7 @@ MonoBehaviour:
   - {fileID: 1432949086394146, guid: 8d755bf8c1293aa44ad469c5637b6ecb, type: 2}
   - {fileID: 1666025006121606, guid: a2bb778e91c29854e96394073644d6db, type: 2}
   - {fileID: 1384528508412764, guid: 390db93fd5f4e414a9ad4eb96210e195, type: 2}
-  numberOfEnemies: 4500
+  numberOfEnemies: 3750
   squareRadius: 175
 --- !u!114 &868214453
 MonoBehaviour:
@@ -1184,25 +1248,25 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 1262790106524764, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
-      propertyPath: m_Layer
-      value: 11
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
       objectReference: {fileID: 0}
-    - target: {fileID: 1069199672604216, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
-      propertyPath: m_Layer
-      value: 11
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 1228788320463544, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
-      propertyPath: m_Layer
-      value: 11
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1508688763374062, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242226738177880, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
-      propertyPath: m_Layer
-      value: 11
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
@@ -1365,6 +1429,26 @@ Prefab:
       propertyPath: m_Name
       value: Hangar (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
   m_IsPrefabParent: 0
@@ -1430,6 +1514,26 @@ Prefab:
     - target: {fileID: 1508688763374062, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
       propertyPath: m_Name
       value: Hangar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
@@ -1629,6 +1733,12 @@ MonoBehaviour:
   - {fileID: 1384528508412764, guid: 390db93fd5f4e414a9ad4eb96210e195, type: 2}
   - {fileID: 1744516326241078, guid: cab7cdf77bb90a846b6959fff4228a90, type: 2}
   - {fileID: 1946068247089250, guid: 7a34d7d89e2a7d846b41e66a20b60d6d, type: 2}
+  - {fileID: 1909224878559380, guid: aaaf89eee4b1f23488b2507987c67f08, type: 2}
+  - {fileID: 1479757679175060, guid: 6d45da056c3066b4996db4bf9ee62c82, type: 2}
+  - {fileID: 1082752772350182, guid: adc02d6deca50194aad408b0397fa623, type: 2}
+  - {fileID: 1453371578694094, guid: 97b60531db6ac46428b2d278b726f389, type: 2}
+  - {fileID: 1968690601484882, guid: d7fef8b6d1038f64599a2a0b7d079d82, type: 2}
+  - {fileID: 1968690601484882, guid: 5419ff9d3f8ba3d45a21b68314c6a198, type: 2}
   m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
@@ -1691,6 +1801,10 @@ MonoBehaviour:
   - {fileID: 1233591851505096, guid: 639fa563a4360bc4ca26a663e58d87ad, type: 2}
   - {fileID: 1575427301364718, guid: 7e767b258ba80004489d8b044bcb0050, type: 2}
   - {fileID: 1744516326241078, guid: cab7cdf77bb90a846b6959fff4228a90, type: 2}
+  - {fileID: 1909224878559380, guid: aaaf89eee4b1f23488b2507987c67f08, type: 2}
+  - {fileID: 1479757679175060, guid: 6d45da056c3066b4996db4bf9ee62c82, type: 2}
+  - {fileID: 1082752772350182, guid: adc02d6deca50194aad408b0397fa623, type: 2}
+  - {fileID: 1453371578694094, guid: 97b60531db6ac46428b2d278b726f389, type: 2}
   HM: {fileID: 851051365}
 --- !u!4 &1581762726
 Transform:
@@ -1782,6 +1896,26 @@ Prefab:
     - target: {fileID: 1508688763374062, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
       propertyPath: m_Name
       value: Hangar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
@@ -1930,6 +2064,26 @@ Prefab:
       propertyPath: m_Name
       value: Hangar (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
   m_IsPrefabParent: 0
@@ -2062,6 +2216,26 @@ Prefab:
     - target: {fileID: 1508688763374062, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
       propertyPath: m_Name
       value: Hangar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 65789550497769026, guid: f310f9ade0bc648418981a0153293c3e,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f310f9ade0bc648418981a0153293c3e, type: 2}
@@ -2305,7 +2479,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1990391273}
   serializedVersion: 2
-  m_Mass: 10000
+  m_Mass: 500
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
@@ -2323,8 +2497,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 2.220446e-16, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -5.5, z: 0}
 --- !u!23 &1990391277
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2339,7 +2513,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 876a0f21b07622e40bc2ec0c99a3d44c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

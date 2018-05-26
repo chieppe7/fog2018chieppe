@@ -49,11 +49,11 @@ public class PhantomWeapons : NetworkBehaviour {
             T[i++].rotation);
             if(i>=T.Length)
                 i=0;
-            bullet1.GetComponent<Rigidbody>().velocity = bullet1.transform.forward * 100f;
+            bullet1.GetComponent<Rigidbody>().velocity = bullet1.transform.forward * 300f;
             NetworkServer.Spawn(bullet1);
             // Destroy the bullet after 2 seconds
             Destroy(bullet1, 2.0f);
-            bullet2.GetComponent<Rigidbody>().velocity = bullet2.transform.forward * 100f;
+            bullet2.GetComponent<Rigidbody>().velocity = bullet2.transform.forward * 300f;
             NetworkServer.Spawn(bullet2);
             // Destroy the bullet after 2 seconds
             Destroy(bullet2, 2.0f);
@@ -68,7 +68,7 @@ public class PhantomWeapons : NetworkBehaviour {
                 i=0;
 
             // Add velocity to the bullet
-            bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 100f;
+            bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 300f;
             NetworkServer.Spawn(bullet);
             // Destroy the bullet after 2 seconds
             Destroy(bullet, 2.0f);

@@ -12,7 +12,7 @@ public class Missile : MonoBehaviour {
 
     private void Update() {
         RG.AddForce (transform.forward * 500f);
-		RG.velocity=Vector3.ClampMagnitude(RG.velocity, 100f);
+		RG.velocity=Vector3.ClampMagnitude(RG.velocity, 130f);
     }
 
     private void OnTriggerStay(Collider other) {

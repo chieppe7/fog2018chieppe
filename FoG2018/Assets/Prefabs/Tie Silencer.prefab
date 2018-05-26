@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 1968690601484882, guid: 46b527d82efb7e843b66835a835f464c, type: 2}
-  delay: 0.3
+  delay: 0.2
   T:
   - {fileID: 4289348742605380}
   - {fileID: 4963999743235514}

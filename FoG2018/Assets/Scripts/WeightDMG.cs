@@ -14,13 +14,13 @@ public class WeightDMG : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
         Debug.Log("Hit! colision");
+        if(AS)
+                AS.Play();
         HealthController h = other.gameObject.GetComponent<HealthController>();
         Rigidbody rig2 = other.gameObject.GetComponent<Rigidbody>();
         if(h) {
             dmg=(rig.mass/rig2.mass) * 10f;
             h.TakeDamage((int)dmg);
-            if(AS)
-                AS.Play();
         }
     }
 }
